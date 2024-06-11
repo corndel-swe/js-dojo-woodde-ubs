@@ -1,8 +1,8 @@
 name: Autograding Tests
 'on':
-  push:
-  workflow_dispatch:
-  repository_dispatch:
+  - push
+  - workflow_dispatch
+  - repository_dispatch
 permissions:
   checks: write
   actions: read
@@ -11,59 +11,287 @@ jobs:
   run-autograding-tests:
     runs-on: ubuntu-latest
     if: github.actor != 'github-classroom[bot]'
-    strategy:
-      fail-fast: false
-      matrix:
-        function-number:
-          [
-            01,
-            02,
-            03,
-            04,
-            05,
-            06,
-            07,
-            08,
-            09,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25
-          ]
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Run Test ${{ matrix.function-number }}
-        id: functions-${{ matrix.function-number }}
+      - name: Functions 01
+        id: functions-01
         uses: classroom-resources/autograding-command-grader@v1
         with:
-          test-name: Functions ${{ matrix.function-number }}
-          command: npm run test:functions:${{ matrix.function-number }}
+          test-name: Functions 01
+          setup-command: npm install
+          command: npm run test:functions:01
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 02
+        id: functions-02
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 02
+          setup-command: npm install
+          command: npm run test:functions:02
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 03
+        id: functions-03
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 03
+          setup-command: npm install
+          command: npm run test:functions:03
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 04
+        id: functions-04
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 04
+          setup-command: npm install
+          command: npm run test:functions:04
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 05
+        id: functions-05
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 05
+          setup-command: npm install
+          command: npm run test:functions:05
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 06
+        id: functions-06
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 06
+          setup-command: npm install
+          command: npm run test:functions:06
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 07
+        id: functions-07
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 07
+          setup-command: npm install
+          command: npm run test:functions:07
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 08
+        id: functions-08
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 08
+          setup-command: npm install
+          command: npm run test:functions:08
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 09
+        id: functions-09
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 09
+          setup-command: npm install
+          command: npm run test:functions:09
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 10
+        id: functions-10
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 10
+          setup-command: npm install
+          command: npm run test:functions:10
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 11
+        id: functions-11
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 11
+          setup-command: npm install
+          command: npm run test:functions:11
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 12
+        id: functions-12
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 12
+          setup-command: npm install
+          command: npm run test:functions:12
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 13
+        id: functions-13
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 13
+          setup-command: npm install
+          command: npm run test:functions:13
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 14
+        id: functions-14
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 14
+          setup-command: npm install
+          command: npm run test:functions:14
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 15
+        id: functions-15
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 15
+          setup-command: npm install
+          command: npm run test:functions:15
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 16
+        id: functions-16
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 16
+          setup-command: npm install
+          command: npm run test:functions:16
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 17
+        id: functions-17
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 17
+          setup-command: npm install
+          command: npm run test:functions:17
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 18
+        id: functions-18
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 18
+          setup-command: npm install
+          command: npm run test:functions:18
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 19
+        id: functions-19
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 19
+          setup-command: npm install
+          command: npm run test:functions:19
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 20
+        id: functions-20
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 20
+          setup-command: npm install
+          command: npm run test:functions:20
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 21
+        id: functions-21
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 21
+          setup-command: npm install
+          command: npm run test:functions:21
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 22
+        id: functions-22
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 22
+          setup-command: npm install
+          command: npm run test:functions:22
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 23
+        id: functions-23
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 23
+          setup-command: npm install
+          command: npm run test:functions:23
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 24
+        id: functions-24
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 24
+          setup-command: npm install
+          command: npm run test:functions:24
+          timeout: 1
+          max-score: 1
+
+      - name: Functions 25
+        id: functions-25
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Functions 25
+          setup-command: npm install
+          command: npm run test:functions:25
           timeout: 1
           max-score: 1
 
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
+        env:
+          FUNCTIONS-01_RESULTS: '${{steps.functions-01.outputs.result}}'
+          FUNCTIONS-02_RESULTS: '${{steps.functions-02.outputs.result}}'
+          FUNCTIONS-03_RESULTS: '${{steps.functions-03.outputs.result}}'
+          FUNCTIONS-04_RESULTS: '${{steps.functions-04.outputs.result}}'
+          FUNCTIONS-05_RESULTS: '${{steps.functions-05.outputs.result}}'
+          FUNCTIONS-06_RESULTS: '${{steps.functions-06.outputs.result}}'
+          FUNCTIONS-07_RESULTS: '${{steps.functions-07.outputs.result}}'
+          FUNCTIONS-08_RESULTS: '${{steps.functions-08.outputs.result}}'
+          FUNCTIONS-09_RESULTS: '${{steps.functions-09.outputs.result}}'
+          FUNCTIONS-10_RESULTS: '${{steps.functions-10.outputs.result}}'
+          FUNCTIONS-11_RESULTS: '${{steps.functions-11.outputs.result}}'
+          FUNCTIONS-12_RESULTS: '${{steps.functions-12.outputs.result}}'
+          FUNCTIONS-13_RESULTS: '${{steps.functions-13.outputs.result}}'
+          FUNCTIONS-14_RESULTS: '${{steps.functions-14.outputs.result}}'
+          FUNCTIONS-15_RESULTS: '${{steps.functions-15.outputs.result}}'
+          FUNCTIONS-16_RESULTS: '${{steps.functions-16.outputs.result}}'
+          FUNCTIONS-17_RESULTS: '${{steps.functions-17.outputs.result}}'
+          FUNCTIONS-18_RESULTS: '${{steps.functions-18.outputs.result}}'
+          FUNCTIONS-19_RESULTS: '${{steps.functions-19.outputs.result}}'
+          FUNCTIONS-20_RESULTS: '${{steps.functions-20.outputs.result}}'
+          FUNCTIONS-21_RESULTS: '${{steps.functions-21.outputs.result}}'
+          FUNCTIONS-22_RESULTS: '${{steps.functions-22.outputs.result}}'
+          FUNCTIONS-23_RESULTS: '${{steps.functions-23.outputs.result}}'
+          FUNCTIONS-24_RESULTS: '${{steps.functions-24.outputs.result}}'
+          FUNCTIONS-25_RESULTS: '${{steps.functions-25.outputs.result}}'
         with:
-          results: ${{ toJson(steps) }}
+          runners: functions-01,functions-02,functions-03,functions-04,functions-05,functions-06,functions-07,functions-08,functions-09,functions-10,functions-11,functions-12,functions-13,functions-14,functions-15,functions-16,functions-17,functions-18,functions-19,functions-20,functions-21,functions-22,functions-23,functions-24,functions-25
