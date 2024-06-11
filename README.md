@@ -49,3 +49,12 @@ or you can run all tests at once using
 ```bash
 npm run test
 ```
+
+## Tech docs
+
+Make sure to consult the
+[tech docs](https://tech-docs.corndel.com/js/variables.html) to help understand
+the basics!
+
+In particular, the **Foundations** and **Data and iteration** sections will be
+extremely useful.
