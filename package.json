@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test/*",
+    "test:functions": "mocha test/functions/*",
     "test:functions:01": "mocha test/functions/01.test.js",
     "test:functions:02": "mocha test/functions/02.test.js",
     "test:functions:03": "mocha test/functions/03.test.js",
