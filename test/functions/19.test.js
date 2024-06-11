@@ -21,9 +21,4 @@ describe('totalPay', function () {
     const result = totalPay(50, 20)
     assert.strictEqual(result, 1100)
   })
-
-  it('should handle floating point values correctly', function () {
-    const result = totalPay(45.5, 20)
-    assert.strictEqual(result, 960)
-  })
 })

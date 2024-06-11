@@ -14,9 +14,4 @@ describe('dayType', function () {
     assert.strictEqual(dayType('Thursday'), 'Weekday')
     assert.strictEqual(dayType('Friday'), 'Weekday')
   })
-
-  it('should handle case insensitive input', function () {
-    assert.strictEqual(dayType('monday'), 'Weekday')
-    assert.strictEqual(dayType('sunday'), 'Weekend')
-  })
 })

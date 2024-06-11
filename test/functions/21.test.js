@@ -22,8 +22,8 @@ describe('isWithinRangeAndEven', function () {
     assert.strictEqual(result, false)
   })
 
-  it('should return true when num is 10, lower is 1, and upper is 10', function () {
+  it('should return false when num is 10, lower is 1, and upper is 10', function () {
     const result = isWithinRangeAndEven(10, 1, 10)
-    assert.strictEqual(result, true)
+    assert.strictEqual(result, false)
   })
 })

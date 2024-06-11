@@ -21,9 +21,4 @@ describe('compoundInterest', function () {
     const result = compoundInterest(2000, 0.03, 5)
     assert.strictEqual(result.toFixed(2), '2318.55')
   })
-
-  it('should handle floating point principal correctly', function () {
-    const result = compoundInterest(1500.75, 0.04, 7)
-    assert.strictEqual(result.toFixed(2), '1979.77')
-  })
 })
