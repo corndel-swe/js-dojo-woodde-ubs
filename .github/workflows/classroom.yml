@@ -265,6 +265,256 @@ jobs:
           timeout: 1
           max-score: 1
 
+      - name: Arrays 01
+        id: arrays-01
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 01
+          setup-command: npm install
+          command: npm run test:arrays:01
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 02
+        id: arrays-02
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 02
+          setup-command: npm install
+          command: npm run test:arrays:02
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 03
+        id: arrays-03
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 03
+          setup-command: npm install
+          command: npm run test:arrays:03
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 04
+        id: arrays-04
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 04
+          setup-command: npm install
+          command: npm run test:arrays:04
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 05
+        id: arrays-05
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 05
+          setup-command: npm install
+          command: npm run test:arrays:05
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 06
+        id: arrays-06
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 06
+          setup-command: npm install
+          command: npm run test:arrays:06
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 07
+        id: arrays-07
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 07
+          setup-command: npm install
+          command: npm run test:arrays:07
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 08
+        id: arrays-08
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 08
+          setup-command: npm install
+          command: npm run test:arrays:08
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 09
+        id: arrays-09
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 09
+          setup-command: npm install
+          command: npm run test:arrays:09
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 10
+        id: arrays-10
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 10
+          setup-command: npm install
+          command: npm run test:arrays:10
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 11
+        id: arrays-11
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 11
+          setup-command: npm install
+          command: npm run test:arrays:11
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 12
+        id: arrays-12
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 12
+          setup-command: npm install
+          command: npm run test:arrays:12
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 13
+        id: arrays-13
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 13
+          setup-command: npm install
+          command: npm run test:arrays:13
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 14
+        id: arrays-14
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 14
+          setup-command: npm install
+          command: npm run test:arrays:14
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 15
+        id: arrays-15
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 15
+          setup-command: npm install
+          command: npm run test:arrays:15
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 16
+        id: arrays-16
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 16
+          setup-command: npm install
+          command: npm run test:arrays:16
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 17
+        id: arrays-17
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 17
+          setup-command: npm install
+          command: npm run test:arrays:17
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 18
+        id: arrays-18
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 18
+          setup-command: npm install
+          command: npm run test:arrays:18
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 19
+        id: arrays-19
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 19
+          setup-command: npm install
+          command: npm run test:arrays:19
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 20
+        id: arrays-20
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 20
+          setup-command: npm install
+          command: npm run test:arrays:20
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 21
+        id: arrays-21
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 21
+          setup-command: npm install
+          command: npm run test:arrays:21
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 22
+        id: arrays-22
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 22
+          setup-command: npm install
+          command: npm run test:arrays:22
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 23
+        id: arrays-23
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 23
+          setup-command: npm install
+          command: npm run test:arrays:23
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 24
+        id: arrays-24
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 24
+          setup-command: npm install
+          command: npm run test:arrays:24
+          timeout: 1
+          max-score: 1
+
+      - name: Arrays 25
+        id: arrays-25
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Arrays 25
+          setup-command: npm install
+          command: npm run test:arrays:25
+          timeout: 1
+          max-score: 1
+
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
@@ -293,5 +543,30 @@ jobs:
           FUNCTIONS-23_RESULTS: '${{steps.functions-23.outputs.result}}'
           FUNCTIONS-24_RESULTS: '${{steps.functions-24.outputs.result}}'
           FUNCTIONS-25_RESULTS: '${{steps.functions-25.outputs.result}}'
+          ARRAYS-01_RESULTS: '${{steps.arrays-01.outputs.result}}'
+          ARRAYS-02_RESULTS: '${{steps.arrays-02.outputs.result}}'
+          ARRAYS-03_RESULTS: '${{steps.arrays-03.outputs.result}}'
+          ARRAYS-04_RESULTS: '${{steps.arrays-04.outputs.result}}'
+          ARRAYS-05_RESULTS: '${{steps.arrays-05.outputs.result}}'
+          ARRAYS-06_RESULTS: '${{steps.arrays-06.outputs.result}}'
+          ARRAYS-07_RESULTS: '${{steps.arrays-07.outputs.result}}'
+          ARRAYS-08_RESULTS: '${{steps.arrays-08.outputs.result}}'
+          ARRAYS-09_RESULTS: '${{steps.arrays-09.outputs.result}}'
+          ARRAYS-10_RESULTS: '${{steps.arrays-10.outputs.result}}'
+          ARRAYS-11_RESULTS: '${{steps.arrays-11.outputs.result}}'
+          ARRAYS-12_RESULTS: '${{steps.arrays-12.outputs.result}}'
+          ARRAYS-13_RESULTS: '${{steps.arrays-13.outputs.result}}'
+          ARRAYS-14_RESULTS: '${{steps.arrays-14.outputs.result}}'
+          ARRAYS-15_RESULTS: '${{steps.arrays-15.outputs.result}}'
+          ARRAYS-16_RESULTS: '${{steps.arrays-16.outputs.result}}'
+          ARRAYS-17_RESULTS: '${{steps.arrays-17.outputs.result}}'
+          ARRAYS-18_RESULTS: '${{steps.arrays-18.outputs.result}}'
+          ARRAYS-19_RESULTS: '${{steps.arrays-19.outputs.result}}'
+          ARRAYS-20_RESULTS: '${{steps.arrays-20.outputs.result}}'
+          ARRAYS-21_RESULTS: '${{steps.arrays-21.outputs.result}}'
+          ARRAYS-22_RESULTS: '${{steps.arrays-22.outputs.result}}'
+          ARRAYS-23_RESULTS: '${{steps.arrays-23.outputs.result}}'
+          ARRAYS-24_RESULTS: '${{steps.arrays-24.outputs.result}}'
+          ARRAYS-25_RESULTS: '${{steps.arrays-25.outputs.result}}'
         with:
-          runners: functions-01,functions-02,functions-03,functions-04,functions-05,functions-06,functions-07,functions-08,functions-09,functions-10,functions-11,functions-12,functions-13,functions-14,functions-15,functions-16,functions-17,functions-18,functions-19,functions-20,functions-21,functions-22,functions-23,functions-24,functions-25
+          runners: functions-01,functions-02,functions-03,functions-04,functions-05,functions-06,functions-07,functions-08,functions-09,functions-10,functions-11,functions-12,functions-13,functions-14,functions-15,functions-16,functions-17,functions-18,functions-19,functions-20,functions-21,functions-22,functions-23,functions-24,functions-25,arrays-01,arrays-02,arrays-03,arrays-04,arrays-05,arrays-06,arrays-07,arrays-08,arrays-09,arrays-10,arrays-11,arrays-12,arrays-13,arrays-14,arrays-15,arrays-16,arrays-17,arrays-18,arrays-19,arrays-20,arrays-21,arrays-22,arrays-23,arrays-24,arrays-25
