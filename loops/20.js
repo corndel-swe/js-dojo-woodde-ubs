@@ -6,7 +6,7 @@
  * @returns {number} - The total inventory value.
  *
  * @example
- * // returns 750
+ * // returns 650
  * calculateInventoryValue([10, 5, 2], [20, 50, 100]);
  */
 export function calculateInventoryValue(quantities, prices) {
