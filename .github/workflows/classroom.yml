@@ -515,6 +515,256 @@ jobs:
           timeout: 1
           max-score: 1
 
+      - name: Loops 01
+        id: loops-01
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 01
+          setup-command: npm install
+          command: npm run test:loops:01
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 02
+        id: loops-02
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 02
+          setup-command: npm install
+          command: npm run test:loops:02
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 03
+        id: loops-03
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 03
+          setup-command: npm install
+          command: npm run test:loops:03
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 04
+        id: loops-04
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 04
+          setup-command: npm install
+          command: npm run test:loops:04
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 05
+        id: loops-05
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 05
+          setup-command: npm install
+          command: npm run test:loops:05
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 06
+        id: loops-06
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 06
+          setup-command: npm install
+          command: npm run test:loops:06
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 07
+        id: loops-07
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 07
+          setup-command: npm install
+          command: npm run test:loops:07
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 08
+        id: loops-08
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 08
+          setup-command: npm install
+          command: npm run test:loops:08
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 09
+        id: loops-09
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 09
+          setup-command: npm install
+          command: npm run test:loops:09
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 10
+        id: loops-10
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 10
+          setup-command: npm install
+          command: npm run test:loops:10
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 11
+        id: loops-11
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 11
+          setup-command: npm install
+          command: npm run test:loops:11
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 12
+        id: loops-12
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 12
+          setup-command: npm install
+          command: npm run test:loops:12
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 13
+        id: loops-13
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 13
+          setup-command: npm install
+          command: npm run test:loops:13
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 14
+        id: loops-14
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 14
+          setup-command: npm install
+          command: npm run test:loops:14
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 15
+        id: loops-15
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 15
+          setup-command: npm install
+          command: npm run test:loops:15
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 16
+        id: loops-16
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 16
+          setup-command: npm install
+          command: npm run test:loops:16
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 17
+        id: loops-17
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 17
+          setup-command: npm install
+          command: npm run test:loops:17
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 18
+        id: loops-18
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 18
+          setup-command: npm install
+          command: npm run test:loops:18
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 19
+        id: loops-19
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 19
+          setup-command: npm install
+          command: npm run test:loops:19
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 20
+        id: loops-20
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 20
+          setup-command: npm install
+          command: npm run test:loops:20
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 21
+        id: loops-21
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 21
+          setup-command: npm install
+          command: npm run test:loops:21
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 22
+        id: loops-22
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 22
+          setup-command: npm install
+          command: npm run test:loops:22
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 23
+        id: loops-23
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 23
+          setup-command: npm install
+          command: npm run test:loops:23
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 24
+        id: loops-24
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 24
+          setup-command: npm install
+          command: npm run test:loops:24
+          timeout: 1
+          max-score: 1
+
+      - name: Loops 25
+        id: loops-25
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Loops 25
+          setup-command: npm install
+          command: npm run test:loops:25
+          timeout: 1
+          max-score: 1
+
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
@@ -568,5 +818,32 @@ jobs:
           ARRAYS-23_RESULTS: '${{steps.arrays-23.outputs.result}}'
           ARRAYS-24_RESULTS: '${{steps.arrays-24.outputs.result}}'
           ARRAYS-25_RESULTS: '${{steps.arrays-25.outputs.result}}'
+          LOOPS-01_RESULTS: '${{steps.loops-01.outputs.result}}'
+          LOOPS-02_RESULTS: '${{steps.loops-02.outputs.result}}'
+          LOOPS-03_RESULTS: '${{steps.loops-03.outputs.result}}'
+          LOOPS-04_RESULTS: '${{steps.loops-04.outputs.result}}'
+          LOOPS-05_RESULTS: '${{steps.loops-05.outputs.result}}'
+          LOOPS-06_RESULTS: '${{steps.loops-06.outputs.result}}'
+          LOOPS-07_RESULTS: '${{steps.loops-07.outputs.result}}'
+          LOOPS-08_RESULTS: '${{steps.loops-08.outputs.result}}'
+          LOOPS-09_RESULTS: '${{steps.loops-09.outputs.result}}'
+          LOOPS-10_RESULTS: '${{steps.loops-10.outputs.result}}'
+          LOOPS-11_RESULTS: '${{steps.loops-11.outputs.result}}'
+          LOOPS-12_RESULTS: '${{steps.loops-12.outputs.result}}'
+          LOOPS-13_RESULTS: '${{steps.loops-13.outputs.result}}'
+          LOOPS-14_RESULTS: '${{steps.loops-14.outputs.result}}'
+          LOOPS-15_RESULTS: '${{steps.loops-15.outputs.result}}'
+          LOOPS-16_RESULTS: '${{steps.loops-16.outputs.result}}'
+          LOOPS-17_RESULTS: '${{steps.loops-17.outputs.result}}'
+          LOOPS-18_RESULTS: '${{steps.loops-18.outputs.result}}'
+          LOOPS-19_RESULTS: '${{steps.loops-19.outputs.result}}'
+          LOOPS-20_RESULTS: '${{steps.loops-20.outputs.result}}'
+          LOOPS-21_RESULTS: '${{steps.loops-21.outputs.result}}'
+          LOOPS-22_RESULTS: '${{steps.loops-22.outputs.result}}'
+          LOOPS-23_RESULTS: '${{steps.loops-23.outputs.result}}'
+          LOOPS-24_RESULTS: '${{steps.loops-24.outputs.result}}'
+          LOOPS-25_RESULTS: '${{steps.loops-25.outputs.result}}'
+
         with:
-          runners: functions-01,functions-02,functions-03,functions-04,functions-05,functions-06,functions-07,functions-08,functions-09,functions-10,functions-11,functions-12,functions-13,functions-14,functions-15,functions-16,functions-17,functions-18,functions-19,functions-20,functions-21,functions-22,functions-23,functions-24,functions-25,arrays-01,arrays-02,arrays-03,arrays-04,arrays-05,arrays-06,arrays-07,arrays-08,arrays-09,arrays-10,arrays-11,arrays-12,arrays-13,arrays-14,arrays-15,arrays-16,arrays-17,arrays-18,arrays-19,arrays-20,arrays-21,arrays-22,arrays-23,arrays-24,arrays-25
+          runners: functions-01,functions-02,functions-03,functions-04,functions-05,functions-06,functions-07,functions-08,functions-09,functions-10,functions-11,functions-12,functions-13,functions-14,functions-15,functions-16,functions-17,functions-18,functions-19,functions-20,functions-21,functions-22,functions-23,functions-24,functions-25,arrays-01,arrays-02,arrays-03,arrays-04,arrays-05,arrays-06,arrays-07,arrays-08,arrays-09,arrays-10,arrays-11,arrays-12,arrays-13,arrays-14,arrays-15,arrays-16,arrays-17,arrays-18,arrays-19,arrays-20,arrays-21,arrays-22,arrays-23,arrays-24,arrays-25,loops-01,loops-02,loops-03,loops-04,loops-05,loops-06,loops-07,loops-08,loops-09,loops-10,loops-11,loops-12,loops-13,loops-14
+,loops-15,loops-16,loops-17,loops-18,loops-19,loops-20,loops-21,loops-22,loops-23,loops-24,loops-25                          
