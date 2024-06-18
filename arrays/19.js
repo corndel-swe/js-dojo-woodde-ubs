@@ -8,4 +8,5 @@
 export function filterEvenAges(ages) {
   // TODO: Use the filter() method to get even numbers from the array
   // TODO: Return the new array of even ages
+  return ages.filter(ages => ages > threshold)  // TBC
 }

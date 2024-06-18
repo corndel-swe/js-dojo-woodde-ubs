@@ -8,4 +8,6 @@
  */
 export function findYoungestAge(ages) {
   // TODO: Return the smallest age
+  // developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min
+  return Math.min(...ages)
 }

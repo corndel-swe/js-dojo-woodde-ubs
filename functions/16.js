@@ -7,4 +7,10 @@
  */
 export function isLeapYear(year) {
   // TODO: Return true if year is divisible by 4 and (not divisible by 100 or divisible by 400)
+  if (year % 100 === 0) {
+    return year % 400 === 0
+  }
+
+  return year % 4 === 0
+
 }
