@@ -7,6 +7,9 @@
  */
 export function shiftAllAges(ages) {
   // TODO: Use the shift() method to remove the first element
+  const first = ages.shift()
   // TODO: Use the push() method to add the removed element to the end of the array
+  ages.push(first)
   // TODO: Return the updated array
+  return ages
 }

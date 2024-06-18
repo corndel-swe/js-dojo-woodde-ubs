@@ -15,4 +15,8 @@ export function sumOfDigits(num) {
   // TODO: Remove the last digit from the number.
   // TODO: Continue the loop until all digits are processed.
   // TODO: Return the sum.
+  let i =1
+  while (i < num.length) {
+    
+  }
 }
